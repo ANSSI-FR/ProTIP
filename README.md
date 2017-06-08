@@ -49,12 +49,13 @@ it designates the same variable ranging in the same set of possible values liste
 * The header of the file contains the listing of the elements of configuration analyzed.
 After that, each trace is an entry of the form :
 
-Trace : port <number> accepts <reason of acceptation> with a <classification of the trace>
-<sequence of hops forming the trace>
+Trace : port *number* accepts *reason of acceptation* with a *classification of the trace*
+*sequence of hops forming the trace*
 and constraints : 
-<sequence of constaints>
+*sequence of constaints*
 
 where : 
+
 	* the port number is the arbitrary physical port number attributed by the tool to the
 port in the configuration described in input.pl,
 	* the trace classification is very rough : if the trace starts with a legitimate packet generation
@@ -66,7 +67,7 @@ so that a trigger event is linked to a result event by application of a rule, wh
    trigger event 
  -> name of the rule -> resulting event
 and so on, chaining hops.
- ** constraints define the possible finite domains in which the variables can take values for the trace to 
+	* constraints define the possible finite domains in which the variables can take values for the trace to 
 be possible.
 
 In the article and talk published at SSTIC 2017, there is mention of our work on 
