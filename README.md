@@ -4,6 +4,10 @@ of a PCIe network.
 It is described in an article and a talk which can be found here:
 https://www.sstic.org/2017/presentation/protip/
 
+# Archiving
+
+This project is not maintained anymore and has been archived on November 9th, 2023. No further work is expected to happen here.
+
 # Prerequisites
 To use ProTIP, you need to install Swi-prolog.
 Not all versions have been tested, but problems have been encountered with versions below 7.
